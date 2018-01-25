@@ -1,0 +1,17 @@
+{
+    "name": "bentuzi/php-web-example",
+    "description": "Simple web example",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "zendframework/zend-config": "3.1.0",
+        "zendframework/zend-mvc": "3.1.1",
+        "bentuzi/php-zf3-common-module": "^1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "module/Application/src/"
+        }
+    }
+}

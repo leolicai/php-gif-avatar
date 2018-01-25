@@ -1,12 +1,15 @@
 # Composer files
 composer.phar
+composer.lock
 vendor/
 
 # Local configs
 config/autoload/*.local.php
+config/development.config.php
 
 # Binary gettext files
 *.mo
+*.DS_Store
 
 # Data
 data/logs/
@@ -20,6 +23,5 @@ data/DoctrineORMModule/Proxy/
 data/DoctrineORMModule/cache/
 
 
-# Legacy ZF1
-demos/
-extras/documentation
+#PhpStorm
+.idea
